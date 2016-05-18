@@ -1,0 +1,88 @@
+#logo{
+display:block;
+margin:200px auto 0 auto;
+}
+a{
+text-decoration:none;
+}
+body{
+font-family:Arial, sans-serif;
+font-size: 13px;
+}
+.black{
+color:black;
+}
+.grey{
+color:#666;
+}
+a:hover{
+text-decoration:underline;
+}
+ul{
+list-style-type:none;
+}
+li{
+display:inline-block;
+margin: 3px 3px 3px 3px;
+padding: 0 0 0 18px;
+}
+#bottomleft{
+float:left;
+margin-left:-27px;
+}
+#bottomright{
+float:right;
+margin-right: 25px;
+}
+#topbanner{
+margin: 25px 40px 0 0;
+height:100px;
+position: absolute;
+top: 0;
+right: 0;
+}
+#botbanner{
+border-top: 2px #e4e4e4 solid;
+height: 40px;
+background-color: #f2f2f2;
+bottom: 0;
+width: 99%;
+/* Was making my chromium browser scroll left/right at 100% */
+position:absolute;
+}
+#notifications{
+border-radius: 25%;
+border: 1px solid white;
+vertical-align:middle;
+}
+#accounts{
+border-radius: 100%;
+border: 1px solid white;
+vertical-align:middle;
+}
+#apps{
+vertical-align:middle;
+}
+.buttons{
+background-color: #f2f2f2;
+color:#757575;
+font-size:13px;
+border: 1px solid #c6c6c6;
+border-radius: 2px;
+font-weight:bold;
+height:36px;
+line-height:27px;
+min-width:54px;
+padding:0 16px;
+margin: 11px 4px;
+position:relative;
+left:38%;
+/* Cannot for the life of me get text-align:center or any other better option to work. */
+}
+#searchbox{
+margin:20px auto 8px auto;
+display:block;
+height:34px;
+width:45%;
+font-size: 16px;
+}
